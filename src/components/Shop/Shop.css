@@ -1,0 +1,23 @@
+.shopContainer{
+    color: black;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+.summeryDiv{
+    background-color: rgba(255, 153, 0, 0.3);
+    height: 100%;
+}
+
+.product-Container{
+    background-color: #ffffff;
+    padding: 80px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+
+.summeryDiv h3{
+  margin-top: 60px;
+  margin-left: 60px;
+}
