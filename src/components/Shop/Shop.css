@@ -5,7 +5,11 @@
 }
 .summeryDiv{
     background-color: rgba(255, 153, 0, 0.3);
-    height: 100%;
+    max-height: 800px;
+    padding-top: 30px;
+  text-align: center;
+  position: sticky;
+  top: 0px;
 }
 
 .product-Container{
@@ -14,10 +18,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
+    min-height: 500px;
 }
 
 
-.summeryDiv h3{
-  margin-top: 60px;
-  margin-left: 60px;
-}
